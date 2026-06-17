@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/amigo.css">
+</head>
+<body>
+    <div id="superior">
+        <div id="primeiro">
+            <p id="titulo1">Amigo Secreto</p>
+            <img src="imagens/images (3).jpeg" alt="">
+        </div>
+    </div>
+    <div id="inferior">
+        <h1 id="titulo2">Digite o nome dos seus amigos</h1>
+        <input type="text" placeholder="Digite um nome" id="nome">
+        <input type="submit" value="Adicionar" id="botao1">
+        <ul id="inserir"></ul>
+        <ul id="resultado"></ul>
+        <input type="submit" value="Sortear Amigo" id="botao2">
+
+
+    </div>
+</body>
+</html>
